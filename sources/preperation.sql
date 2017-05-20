@@ -1,4 +1,4 @@
-CREATE TEMPORARY TABLE IF NOT EXISTS `war_casualties.TEMP_vietnam_casualties` (
+CREATE TABLE IF NOT EXISTS `Vietnam_casualties` (
   `service_number`        VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Service number',
   `c`                     VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Member component code.',
   `ptp`                   VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Person type name code',
@@ -56,7 +56,7 @@ CREATE TEMPORARY TABLE IF NOT EXISTS `war_casualties.TEMP_vietnam_casualties` (
   `i_aircraft`            VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident aircraft type'
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
 
-CREATE TEMPORARY TABLE IF NOT EXISTS `war_casualties.TEMP_korean_casualties` (
+CREATE TABLE IF NOT EXISTS `Korean_casualties` (
   `service_number`        VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Service number',
   `c`                     VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Member component code.',
   `ptp`                   VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Person type name code',
