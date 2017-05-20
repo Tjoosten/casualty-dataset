@@ -4,7 +4,7 @@ A small provided dataset (mysqldump) for the Vietnam and Korean war casualties o
 
 ## Installation 
 
-From scratch (Using the source dataset):
+### From scratch (Using the source dataset):
 
 1. Install the database with the follwoing command: `mysql -u {user} -p {database} < {path to scheme}`
 2. Run the following queries: 
