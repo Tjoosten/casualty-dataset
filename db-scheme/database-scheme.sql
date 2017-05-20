@@ -113,6 +113,3 @@ CREATE TABLE IF NOT EXISTS `Korean_casualties` (
   `i_h`                   VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident hostile or Incident non-hostile death',
   `i_aircraft`            VARCHAR(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT 'Incident aircraft type'
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COLLATE = utf8mb4_unicode_ci;
-
-LOAD DATA LOCAL INFILE '../DCAS.VN.EXT08.DAT' INTO TABLE `war_casualties.TEMP_vietnam_casualties` FIELDS TERMINATED BY '|';
-LOAD DATA LOCAL INFILE '../DCAS.KS.EXT08.DAT' INTO TABLE `war_casualties.TEMP_korean_casualties` FIELDS TERMINATED BY '|';
