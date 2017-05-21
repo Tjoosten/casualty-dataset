@@ -11,6 +11,8 @@ A small provided dataset (mysqldump) for the Vietnam and Korean war casualties o
  - `LOAD DATA LOCAL INFILE 'sources/DCAS.VN.EXT08.DAT' INTO TABLE Vietnam_casualties FIELDS TERMINATED BY '|';`
  - `LOAD DATA LOCAL INFILE 'sources/DCAS.KS.EXT08.DAT' INTO TABLE Korean_casualties FIELDS TERMINATED BY '|';`
 
+## From the mysql dumps.
+
 ## Sources 
 
 - [The vietnam war.](https://catalog.archives.gov/id/2240992)

@@ -62,16 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="preperation.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/preperation.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="115" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1228a433-ded7-4c32-9884-62c4aca9696e/console.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -131,6 +121,16 @@
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="casualty_dataset" />
+              <option name="myItemType" value="com.intellij.database.ide.DatabaseProjectViewPane$1$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="casualty_dataset" />
+              <option name="myItemType" value="com.intellij.database.ide.DatabaseProjectViewPane$1$1$1" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="casualty_dataset" />
