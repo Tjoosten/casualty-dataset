@@ -1,0 +1,13 @@
+{
+    "name": "tjoosten/casualties",
+    "description": "A small dataset about the american casualties from the Vietnam and Korean war",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Joosten",
+            "email": "Tjoosten3@gmail.com"
+        }
+    ],
+    "require": {}
+}
