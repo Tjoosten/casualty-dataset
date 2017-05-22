@@ -1,1 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
+/tool/vendor/
+/tool/composer.lock
+/tool/.env
+/.idea

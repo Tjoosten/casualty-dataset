@@ -18,7 +18,7 @@ class InitCommand extends BaseCommand
      */
     protected function configure()
     {
-        $this->setName('init');
+        $this->setName('init')->setDescription('Convert the dataset files into some database.');
     }
 
     /**
