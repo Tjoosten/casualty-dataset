@@ -10,7 +10,9 @@
         }
     ],
     "require": {
-        "symfony/console": "^3.2"
+        "symfony/console": "^3.2",
+        "vlucas/phpdotenv": "^2.4",
+        "symfony/filesystem": "^3.2"
     },
     "require-dev": {
         "symfony/var-dumper": "^3.2"
@@ -19,5 +21,10 @@
         "psr-4":{
             "NoMoreWar\\Casualties\\": "src/"
         }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
     }
 }

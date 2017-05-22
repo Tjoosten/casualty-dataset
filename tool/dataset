@@ -4,10 +4,12 @@
 
 require __DIR__.'/vendor/autoload.php';
 
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+ini_set('memory_limit', '1000000M');
+
 use Symfony\Component\Console\Application;
 
-$application = new Application('Casualty dataset', 'v1-dev');
-
-// ... register commands
-
-$application->run();
+$shell = new Application('Casualty dataset', 'v1-dev');
+$shell->add(new \NoMoreWar\Casualties\Commands\InitCommand());
+$shell->run();
