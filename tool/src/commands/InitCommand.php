@@ -11,11 +11,23 @@ class InitCommand extends BaseCommand
 {
     use InitalizationTrait, LockableTrait;
 
+    /**
+     * Command configuration.
+     *
+     * @return void.
+     */
     protected function configure()
     {
         $this->setName('init');
     }
 
+    /**
+     * Command execution.
+     *
+     * @param  InputInterface $input    An symfony inputInterface Instance.
+     * @param  OutputInterface $output  An symfony Output interface Instance.
+     * @return int
+     */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         if (! $this->lock()) { // The command is running in another process.
@@ -78,7 +90,6 @@ class InitCommand extends BaseCommand
         } //> End all casualty table.
 
         $output->writeln("<info>[INFO]:   The init command is done. Quit process</info>");
-
         $this->release(); // Release the command.
     }
 }

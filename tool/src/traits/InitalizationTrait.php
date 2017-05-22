@@ -39,6 +39,13 @@ trait InitalizationTrait
         $dbServer->query("TRUNCATE TABLE $table");
     }
 
+    /**
+     * @param $dbServer
+     * @param $vietnamFile
+     * @param $koreanFile
+     * @param $table
+     * @return bool
+     */
     public function createALlCasualties($dbServer, $vietnamFile, $koreanFile, $table)
     {
         $vietnamImport = $this->seedNaraData($dbServer, $vietnamFile, $table);
